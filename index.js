@@ -5,7 +5,6 @@ const mongoose = require('mongoose')
 const router = express.Router();
 const UserSchema = require('./models/User.js')
 
-// Conectamos con la BD
 mongoose.connect("")
 app.use(express.urlencoded({extended: true}))
 app.use(express.json())
